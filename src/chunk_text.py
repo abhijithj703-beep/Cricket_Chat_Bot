@@ -4,6 +4,7 @@ import json
 INPUT_PATH = "../data/laws_of_cricket.txt"
 OUTPUT_PATH = "../data/chunks.json"
 
+# text to chunks -- test branch
 with open(INPUT_PATH, "r", encoding="utf-8") as f:
     text = f.read()
 
